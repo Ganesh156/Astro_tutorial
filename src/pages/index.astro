@@ -1,0 +1,33 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
+import Body from '../components/Body.astro';
+import Content from '../components/Content.astro';
+import Masthead from '../components/Masterhead.astro'
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<Body>
+		<Header title={SITE_TITLE} />
+		<main class="pt-[56px]">
+			<h1 class="font-mplus text-center">What I Use</h1>
+			<Masthead/>
+			<Content>
+				<section>
+					<p class="mb-8 indent-4">
+						As a full time software engineer, I&apos;ve been working on multiple tech stacks,
+						Like on database side postgresql, backend aws services like lambda, aurora serverless, serverless application model(SAM), API gateway etc.
+						Apart from work i also woke on building small projects using React, nodejs and etc. So this keeps motivating me to build better software to the world.
+					</p>
+				</section>
+			</Content>
+		</main>
+		<Footer />
+	</Body>
+</html>
