@@ -7,16 +7,17 @@ import Content from '../components/Content.astro';
 
 export interface Props {
 	content: {
-		title: string;
-		description: string;
-		pubDate?: string;
-		updatedDate?: string;
-		heroImage?: string;
+		title: string
+    	description: string
+    	createdAt?: string
+    	updatedAt?: string
+    	heroImage?: string
+    	tags: string[]
 	};
 }
 
 const {
-	content: { title, description, pubDate, updatedDate, heroImage },
+	content: { title, description, createdAt, updatedAt, heroImage },
 } = Astro.props;
 ---
 
