@@ -3,4 +3,4 @@
 
 export const SITE_TITLE = 'techpoints.io';
 export const SITE_DESCRIPTION = 'Welcome to techpoints.io';
-export const HOMEPAGE_URL = 'https://www.gani.tech/'
+export const HOMEPAGE_URL = 'https://www.techpoints.io/'

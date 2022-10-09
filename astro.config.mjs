@@ -7,7 +7,7 @@ import addClasses from 'rehype-add-classes';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://www.gani.tech/',
+  site: 'https://www.techpoints.io/',
   integrations: [sitemap(), react(), image(), tailwind()],
   markdown: {
     extendDefaultPlugins: true,
