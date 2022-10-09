@@ -3,7 +3,7 @@ description: Python programming Language.
 public: true
 layout: ../../layouts/BlogPost.astro
 title: Python
-createdAt: 1663138523826
+createdAt: ""
 updatedAt: 1663138544071
 tags:
   - Desk
@@ -12,6 +12,28 @@ slug: python
 ---
 
 
-I’ve been sitting on a chair from Herman Miller called [Aeron Chair](https://amzn.to/3mzPwFZ) for more than 5 years now. You may know this chair because it’s so popular around the world. I bought it at Rakuten Ichiba. I was using a very cheap chair before buying it. I found myself not so tired since I switched to this chair. It’s so durable and hasn’t broken at all even after 5 years of use. So, I think it’s worth the price. Take care of your back.
+Nowadays if you ask any tech guy or girl which programming language to learn easy and fast i think 90% of them will tell Python. Yes because it is fun to learn and makes the learner comfortable, not writing too many lines of code to get desired output. Python has over 1.3 lakhs plus libraries.Yeah there is always debate between Python and JavaScript but both have their own advantages and disadvantages.
 
-![py.jpeg](/py.jpeg)
+Wait Wait, I am not here to explain how popular python is or how it works, I am here to tell you how it actually started and why it gets named as Python.
+
+The Python creator is Guido van Rossum who was working at Centrum Wiskunde & Informatica which is situated in the Netherland. Initially he is working on a programming language called ABC which is the interface for Amoeba Operating System. After that he started working on Python in 1989 which was initially not an open source programming language after 1991 they made it as open source.
+
+Let us here from Guido van Rossum
+
+[![thumbnail](https://img.youtube.com/vi/J0Aq44Pze-w/sddefault.jpg)](https://www.youtube.com/watch?v=J0Aq44Pze-w)
+
+Initial version of python is created in the C programming language. Later it is developed using C# and JAVA. It is inspired by many languages for example '#' commenting is the origin of the UNIX v7 shell. And its overload methods like __eq__, __ne__, __lt__, __le__ etc are from Fortrans.
+
+Have you ever thought about why Python is called Python? Its snake name and how it is related to technology right?
+
+Let me tell you the story
+
+![Python_Story.jpg](/Python_Story.jpg)
+
+While Guido van Rossum developed Python, he was also reading the publication of Monty Python's Flying Circus. Which is one of the best Comedy TV series in BBC from the year 1969 to 1973. So he came up with the name Python. Still you can see some of the examples in documentation which are related to Monty Python's Flying Circus like Spam, Eggs, Lumberjack and Knights etc.Quite Interesting right…!
+
+**Conclusion**
+
+I think Python may not have deep history but it created history. From a simple scripting language to becoming a top programming language. Inspired by many programming languages to become one.
+
+Now it is the core programming language for Machine Learning and Artificial Intelligence not only there, It is in Web technology, App Development, Game Development and many more. It is an Ocean.
