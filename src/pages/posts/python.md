@@ -7,7 +7,7 @@ createdAt: ""
 updatedAt: 1663138544071
 tags:
   - Desk
-heroImage: ./posts/py.jpeg
+heroImage: /posts/py.jpeg
 slug: python
 ---
 
@@ -28,7 +28,7 @@ Have you ever thought about why Python is called Python? Its snake name and how 
 
 Let me tell you the story
 
-![Python_Story.jpg](./posts/Python_Story.jpg)
+![Python_Story.jpg](/posts/Python_Story.jpg)
 
 While Guido van Rossum developed Python, he was also reading the publication of Monty Python's Flying Circus. Which is one of the best Comedy TV series in BBC from the year 1969 to 1973. So he came up with the name Python. Still you can see some of the examples in documentation which are related to Monty Python's Flying Circus like Spam, Eggs, Lumberjack and Knights etc.Quite Interesting right…!
 
