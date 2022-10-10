@@ -8,7 +8,7 @@ import Content from '../components/Content.astro';
 import Masthead from '../components/Masterhead.astro';
 import { Image } from '@astrojs/image/components';
 
-const posts = (await Astro.glob('./posts/*.md')).sort(
+const posts = (await Astro.glob('./posts/*.mdx')).sort(
   (a: any, b: any) =>
     new Date(b.frontmatter.createdAt).valueOf() -
     new Date(a.frontmatter.createdAt).valueOf()

@@ -4,11 +4,12 @@ import react from "@astrojs/react";
 import image from "@astrojs/image";
 import tailwind from "@astrojs/tailwind";
 import addClasses from 'rehype-add-classes';
+import mdx from '@astrojs/mdx';
 
 // https://astro.build/config
 export default defineConfig({
   site: 'https://www.techpoints.io/',
-  integrations: [sitemap(), react(), image(), tailwind()],
+  integrations: [sitemap(), react(), image(), tailwind(), mdx()],
   markdown: {
     extendDefaultPlugins: true,
     rehypePlugins: [
